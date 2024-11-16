@@ -1,7 +1,9 @@
 import { GoClock } from "react-icons/go";
 import { FaFire } from "react-icons/fa";
+import PropTypes from 'prop-types';
 
-const Card = () => {
+const Card = ({recipie}) => {
+    console.log(recipie)
     return (
 
         <div >
@@ -33,5 +35,7 @@ const Card = () => {
 
     );
 };
-
+Card.propTypes ={
+    recipie : PropTypes.object.isRequired
+}
 export default Card;
