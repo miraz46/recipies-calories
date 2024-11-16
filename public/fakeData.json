@@ -1,94 +1,91 @@
-{
-    "recipes": [
-      {
-        "recipe_id": 1,
-        "recipe_name": "Grilled Chicken with Basil",
-        "recipe_image": "https://i.ibb.co.com/PrZjhGS/Food-1.jpg",
-        "short_description": "Juicy grilled chicken infused with fresh basil and a hint of soy sauce.",
-        "ingredients": [
-          "550 g chicken",
-          "120 ml soy sauce",
-          "200 g basil leaf",
-          "400 g mushroom"
-        ],
-        "preparing_time": "30",
-        "calories": "320"
-      },
-      {
-        "recipe_id": 2,
-        "recipe_name": "Spaghetti Bolognese",
-        "recipe_image": "https://i.ibb.co.com/JRNw19g/Food-2.jpg",
-        "short_description": "Classic Italian pasta with rich meat sauce and a touch of garlic.",
-        "ingredients": [
-          "500 g spaghetti",
-          "300 g ground beef",
-          "200 g tomato sauce",
-          "50 g parmesan cheese",
-          "2 cloves garlic"
-        ],
-        "preparing_time": "40",
-        "calories": "450"
-      },
-      {
-        "recipe_id": 3,
-        "recipe_name": "Vegetarian Stir-fry",
-        "recipe_image": "https://i.ibb.co.com/p03kq0s/Food-3.jpg",
-        "short_description": "A quick and healthy mix of fresh vegetables with soy-based sauce.",
-        "ingredients": [
-          "300 g broccoli",
-          "200 g bell peppers",
-          "150 g carrots",
-          "100 g tofu",
-          "50 ml soy sauce"
-        ],
-        "preparing_time": "20",
-        "calories": "220"
-      },
-      {
-        "recipe_id": 4,
-        "recipe_name": "Chocolate Chip Cookies",
-        "recipe_image": "https://i.ibb.co.com/1rPDBLY/Food-4.jpg",
-        "short_description": "Crispy and gooey cookies packed with chocolate chips.",
-        "ingredients": [
-          "300 g all-purpose flour",
-          "200 g butter",
-          "150 g sugar",
-          "100 g chocolate chips",
-          "2 eggs"
-        ],
-        "preparing_time": "25",
-        "calories": "250"
-      },
-      {
-        "recipe_id": 5,
-        "recipe_name": "Avocado Toast",
-        "recipe_image": "https://i.ibb.co.com/ynXjJxQ/Food-5.jpg",
-        "short_description": "Simple and delicious avocado spread on crispy toasted bread.",
-        "ingredients": [
-          "1 ripe avocado",
-          "2 slices of bread",
-          "10 ml olive oil",
-          "1 pinch salt",
-          "1 pinch pepper"
-        ],
-        "preparing_time": "10",
-        "calories": "200"
-      },
-      {
-        "recipe_id": 6,
-        "recipe_name": "Berry Smoothie",
-        "recipe_image": "https://i.ibb.co.com/T4QDxMz/Food-6.jpg",
-        "short_description": "Refreshing smoothie made with mixed berries and yogurt.",
-        "ingredients": [
-          "200 g mixed berries",
-          "150 ml yogurt",
-          "100 ml milk",
-          "20 g honey",
-          "5 g chia seeds"
-        ],
-        "preparing_time": "5",
-        "calories": "180"
-      }
-    ]
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken with Basil",
+    "recipe_image": "https://i.ibb.co.com/PrZjhGS/Food-1.jpg",
+    "short_description": "Juicy grilled chicken infused with fresh basil and a hint of soy sauce.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparing_time": "30",
+    "calories": "320"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Bolognese",
+    "recipe_image": "https://i.ibb.co.com/JRNw19g/Food-2.jpg",
+    "short_description": "Classic Italian pasta with rich meat sauce and a touch of garlic.",
+    "ingredients": [
+      "500 g spaghetti",
+      "300 g ground beef",
+      "200 g tomato sauce",
+      "50 g parmesan cheese",
+      "2 cloves garlic"
+    ],
+    "preparing_time": "40",
+    "calories": "450"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetarian Stir-fry",
+    "recipe_image": "https://i.ibb.co.com/p03kq0s/Food-3.jpg",
+    "short_description": "A quick and healthy mix of fresh vegetables with soy-based sauce.",
+    "ingredients": [
+      "300 g broccoli",
+      "200 g bell peppers",
+      "150 g carrots",
+      "100 g tofu",
+      "50 ml soy sauce"
+    ],
+    "preparing_time": "20",
+    "calories": "220"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Chocolate Chip Cookies",
+    "recipe_image": "https://i.ibb.co.com/1rPDBLY/Food-4.jpg",
+    "short_description": "Crispy and gooey cookies packed with chocolate chips.",
+    "ingredients": [
+      "300 g all-purpose flour",
+      "200 g butter",
+      "150 g sugar",
+      "100 g chocolate chips",
+      "2 eggs"
+    ],
+    "preparing_time": "25",
+    "calories": "250"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Avocado Toast",
+    "recipe_image": "https://i.ibb.co.com/ynXjJxQ/Food-5.jpg",
+    "short_description": "Simple and delicious avocado spread on crispy toasted bread.",
+    "ingredients": [
+      "1 ripe avocado",
+      "2 slices of bread",
+      "10 ml olive oil",
+      "1 pinch salt",
+      "1 pinch pepper"
+    ],
+    "preparing_time": "10",
+    "calories": "200"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Berry Smoothie",
+    "recipe_image": "https://i.ibb.co.com/T4QDxMz/Food-6.jpg",
+    "short_description": "Refreshing smoothie made with mixed berries and yogurt.",
+    "ingredients": [
+      "200 g mixed berries",
+      "150 ml yogurt",
+      "100 ml milk",
+      "20 g honey",
+      "5 g chia seeds"
+    ],
+    "preparing_time": "5",
+    "calories": "180"
   }
-  
+]
