@@ -1,7 +1,7 @@
 
 
-const TableUpper = ({ cook, idx }) => {
-    
+const TableUpper = ({ cook, idx, handlePreparing }) => {
+
     return (
         <tr>
             <td className="px-4 py-2">{idx + 1}</td>
@@ -9,7 +9,7 @@ const TableUpper = ({ cook, idx }) => {
             <td className="px-4 py-2">{cook.preparing_time}</td>
             <td className="px-4 py-2">{cook.calories}</td>
             <td className="px-4 py-2">
-                <button className="py-2 px-4 bg-[#0BE58A] text-black rounded-full">Preparing</button>
+                <button className="py-2 px-4 bg-[#0BE58A] text-black rounded-full" onClick={() => handlePreparing(cook)}>Preparing</button>
             </td>
         </tr>
 

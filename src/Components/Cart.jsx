@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import TableUpper from './TableUpper';
-const Cart = ({ cooks }) => {
+const Cart = ({ cooks, handlePreparing, cooking }) => {
 
     return (
         <div>
@@ -19,7 +19,7 @@ const Cart = ({ cooks }) => {
                     </thead>
                     <tbody>
                         {
-                            cooks.map((cook, idx) =><TableUpper cook={cook} key={idx} idx={idx}></TableUpper>)
+                            cooks.map((cook, idx) => <TableUpper cook={cook} key={idx} idx={idx} handlePreparing={handlePreparing}></TableUpper>)
                         }
                     </tbody>
                 </table>
@@ -42,12 +42,9 @@ const Cart = ({ cooks }) => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td className="px-4 py-2">1</td>
-                            <td className="px-4 py-2">Spaghetti Bolognese</td>
-                            <td className="px-4 py-2">30 minutes</td>
-                            <td className="px-4 py-2">500 calories</td>
-                        </tr>
+                        {/* {
+                            cooks.map(c)
+                        } */}
                     </tbody>
                 </table>
             </div>
@@ -55,6 +52,7 @@ const Cart = ({ cooks }) => {
     );
 };
 Cart.propTypes = {
-    cooks: PropTypes.array.isRequired
+    cooks: PropTypes.array.isRequired,
+    handleCurrentlyCooking: PropTypes.func.isRequired
 }
 export default Cart;
