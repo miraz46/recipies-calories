@@ -10,8 +10,8 @@
       "200 g basil leaf",
       "400 g mushroom"
     ],
-    "preparing_time": "30",
-    "calories": "320"
+    "preparing_time": "30 Mins",
+    "calories": "320 calories"
   },
   {
     "recipe_id": 2,
@@ -25,8 +25,8 @@
       "50 g parmesan cheese",
       "2 cloves garlic"
     ],
-    "preparing_time": "40",
-    "calories": "450"
+    "preparing_time": "40 Mins",
+    "calories": "450 calories"
   },
   {
     "recipe_id": 3,
@@ -40,8 +40,8 @@
       "100 g tofu",
       "50 ml soy sauce"
     ],
-    "preparing_time": "20",
-    "calories": "220"
+    "preparing_time": "20 Mins",
+    "calories": "220 calories"
   },
   {
     "recipe_id": 4,
@@ -55,8 +55,8 @@
       "100 g chocolate chips",
       "2 eggs"
     ],
-    "preparing_time": "25",
-    "calories": "250"
+    "preparing_time": "25 Mins",
+    "calories": "250 calories"
   },
   {
     "recipe_id": 5,
@@ -70,8 +70,8 @@
       "1 pinch salt",
       "1 pinch pepper"
     ],
-    "preparing_time": "10",
-    "calories": "200"
+    "preparing_time": "10 Mins",
+    "calories": "200 calories"
   },
   {
     "recipe_id": 6,
@@ -85,7 +85,7 @@
       "20 g honey",
       "5 g chia seeds"
     ],
-    "preparing_time": "5",
-    "calories": "180"
+    "preparing_time": "5 Mins",
+    "calories": "180 calories"
   }
 ]
