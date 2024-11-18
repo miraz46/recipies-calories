@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import TableUpper from './TableUpper';
 import TableLower from './TableLower';
 const Cart = ({ cooks, handlePreparing, cooking }) => {
-    
+
     return (
         <div>
             <h2 className="text-center pb-4 font-semibold text-2xl">Want to cook: {cooks.length}</h2>
@@ -47,19 +47,6 @@ const Cart = ({ cooks, handlePreparing, cooking }) => {
                         }
                     </tbody>
                 </table>
-            </div>
-            {/* Total time and calories */}
-            <div className='flex justify-between'>
-                <div className='flex items-center gap-2'>
-                    <h2 className='text-xl font-medium'>Total Time =
-                    </h2>
-                    <p>45 minutes</p>
-                </div>
-                <div className='flex items-center gap-2'>
-                    <h2 className='text-xl font-medium'>Total Calories =
-                    </h2>
-                    <p>45 minutes</p>
-                </div>
             </div>
         </div>
     );
