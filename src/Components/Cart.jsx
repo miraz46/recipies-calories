@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 import TableUpper from './TableUpper';
+import TableLower from './TableLower';
 const Cart = ({ cooks, handlePreparing, cooking }) => {
-
+    
     return (
         <div>
             <h2 className="text-center pb-4 font-semibold text-2xl">Want to cook: {cooks.length}</h2>
             <div className="border-solid border-[1px] w-[70%] mx-auto mb-6"></div>
+            {/* Table-Upper */}
             <div className="p-4 bg-gray-100 rounded-2xl text-[#505050] mb-8">
                 <table className="table-auto w-full text-left">
                     <thead>
@@ -25,8 +27,6 @@ const Cart = ({ cooks, handlePreparing, cooking }) => {
                 </table>
             </div>
 
-
-
             <h2 className="text-center pb-4 font-semibold text-2xl">Currently cooking: 02</h2>
             <div className="border-solid border-[1px] w-[70%] mx-auto mb-6"></div>
 
@@ -42,11 +42,24 @@ const Cart = ({ cooks, handlePreparing, cooking }) => {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* {
-                            cooks.map(c)
-                        } */}
+                        {
+                            cooking.map((cook, idx) => <TableLower cook={cook} key={idx} idx={idx}></TableLower>)
+                        }
                     </tbody>
                 </table>
+            </div>
+            {/* Total time and calories */}
+            <div className='flex justify-between'>
+                <div className='flex items-center gap-2'>
+                    <h2 className='text-xl font-medium'>Total Time =
+                    </h2>
+                    <p>45 minutes</p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <h2 className='text-xl font-medium'>Total Calories =
+                    </h2>
+                    <p>45 minutes</p>
+                </div>
             </div>
         </div>
     );

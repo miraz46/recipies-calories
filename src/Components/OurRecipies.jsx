@@ -6,9 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const OurRecipies = () => {
-    const [recipies, setRecipies] = useState([])
-    const [cooks, setCooks] = useState([])
-    const [cooking, setCooking] = useState([])
+    const [recipies, setRecipies] = useState([]);
+    const [cooks, setCooks] = useState([]);
+    const [cooking, setCooking] = useState([]);
 
     useEffect(() => {
         fetch("fakeData.json")
@@ -29,6 +29,7 @@ const OurRecipies = () => {
         const result = cooks.filter(item => item.recipe_id !== cook.recipe_id)
         setCooks(result)
         handleCurrentlyCooking(cook)
+
 
     }
 

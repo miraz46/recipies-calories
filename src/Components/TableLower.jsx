@@ -1,12 +1,12 @@
 
 
-const TableLower = () => {
+const TableLower = ({ cook, idx }) => {
     return (
         <tr>
-            <td className="px-4 py-2">1</td>
-            <td className="px-4 py-2">Spaghetti Bolognese</td>
-            <td className="px-4 py-2">30 minutes</td>
-            <td className="px-4 py-2">500 calories</td>
+            <td className="px-4 py-2">{idx + 1}</td>
+            <td className="px-4 py-2">{cook.recipe_name}</td>
+            <td className="px-4 py-2">{cook.preparing_time}</td>
+            <td className="px-4 py-2">{cook.calories}</td>
         </tr>
     );
 };
