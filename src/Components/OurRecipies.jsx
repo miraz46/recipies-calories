@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import Cart from "./Cart";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const OurRecipies = () => {
     const [recipies, setRecipies] = useState([])
-    const [cooks, setCooks]=useState([])
+    const [cooks, setCooks] = useState([])
 
     useEffect(() => {
         fetch("fakeData.json")
@@ -13,10 +15,16 @@ const OurRecipies = () => {
             .then((data) => setRecipies(data))
     }, [])
 
-    const handleWantTOCook = (recipie) =>{
-        
-        const newCountRecipie = [...cooks, recipie];
-        setCooks(newCountRecipie);
+    const handleWantTOCook = (recipie) => {
+        const isExist = cooks.find(item => item.recipe_id == recipie.recipe_id)
+        console.log(isExist)
+        if (!isExist) {
+            const newCountRecipie = [...cooks, recipie];
+            setCooks(newCountRecipie);
+        } else {
+            toast("Already added this item!")
+        }
+
     }
 
     return (
@@ -36,6 +44,7 @@ const OurRecipies = () => {
                 {/* Right Side */}
                 <div className="p-6  border-solid border-2  justify-center items-center rounded-2xl w-[40%] h-fit">
                     <Cart cooks={cooks} key={cooks.recipe_id}></Cart>
+                    <ToastContainer />
                 </div>
             </div>
 

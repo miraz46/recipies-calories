@@ -1,8 +1,7 @@
 
 
 const TableUpper = ({ cook, idx }) => {
-    console.log(idx)
-
+    
     return (
         <tr>
             <td className="px-4 py-2">{idx + 1}</td>
